@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Automotive Sales Academy | Master Vehicle Sales</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23b38b59' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2L2 22h4l6-12 6 12h4L12 2z'/><path d='M7.5 13h9'/></svg>">
     <meta name="description"
         content="Premium international ed-tech platform for automotive sales professionals. Learn modern vehicle sales, psychology, EV product knowledge, and negotiation.">
     <!-- Google Fonts -->
@@ -147,10 +146,9 @@
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
-                    <svg class="w-8 h-8 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 2L2 22h4l6-12 6 12h4L12 2z"/>
-                        <path d="M7.5 13h9"/>
-                    </svg>
+                    <div
+                        class="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-heading font-bold text-xl">
+                        A</div>
                     <span
                         class="font-heading font-bold text-xl tracking-tight text-gray-900 dark:text-white uppercase tracking-widest">Apex
                         <span class="font-light text-primary">Academy</span></span>
@@ -1225,10 +1223,9 @@
                 <!-- Brand -->
                 <div class="lg:col-span-1">
                     <div class="flex items-center gap-2 mb-6">
-                        <svg class="w-8 h-8 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 2L2 22h4l6-12 6 12h4L12 2z"/>
-                            <path d="M7.5 13h9"/>
-                        </svg>
+                        <div
+                            class="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-heading font-bold text-xl">
+                            A</div>
                         <span class="font-heading font-bold text-xl text-white uppercase tracking-widest">Apex <span
                                 class="font-light text-primary">Academy</span></span>
                     </div>
@@ -1307,38 +1304,57 @@
     <div id="registerModal" class="fixed inset-0 z-[100] hidden flex items-center justify-center">
         <!-- Backdrop -->
         <div id="modalBackdrop" class="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity"></div>
-        
+
         <!-- Modal Content -->
-        <div class="relative bg-white dark:bg-darkSurface w-full max-w-lg mx-4 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-800 overflow-hidden transform scale-95 opacity-0 transition-all duration-300" id="modalPanel">
+        <div class="relative bg-white dark:bg-darkSurface w-full max-w-lg mx-4 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-800 overflow-hidden transform scale-95 opacity-0 transition-all duration-300"
+            id="modalPanel">
             <div class="p-8">
                 <div class="flex justify-between items-center mb-6">
                     <h3 class="text-2xl font-heading font-bold text-gray-900 dark:text-white">Academy Enrollment</h3>
-                    <button id="closeModalBtn" class="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <button id="closeModalBtn"
+                        class="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
                     </button>
                 </div>
-                
+
                 <form class="space-y-4">
                     <div class="grid grid-cols-2 gap-4">
                         <div>
-                            <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">First Name</label>
-                            <input type="text" class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none" placeholder="John">
+                            <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">First
+                                Name</label>
+                            <input type="text"
+                                class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
+                                placeholder="John">
                         </div>
                         <div>
-                            <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">Last Name</label>
-                            <input type="text" class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none" placeholder="Doe">
+                            <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">Last
+                                Name</label>
+                            <input type="text"
+                                class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
+                                placeholder="Doe">
                         </div>
                     </div>
                     <div>
-                        <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">Work Email</label>
-                        <input type="email" class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none" placeholder="john@dealership.com">
+                        <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">Work
+                            Email</label>
+                        <input type="email"
+                            class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
+                            placeholder="john@dealership.com">
                     </div>
                     <div>
-                        <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">Dealership Name</label>
-                        <input type="text" class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none" placeholder="Apex Motors">
+                        <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">Dealership
+                            Name</label>
+                        <input type="text"
+                            class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
+                            placeholder="Apex Motors">
                     </div>
                     <div class="pt-4">
-                        <button type="button" class="w-full bg-primary hover:bg-primaryDark text-white font-medium py-3 rounded-lg transition-colors shadow-lg shadow-primary/20">Submit Application</button>
+                        <button type="button"
+                            class="w-full bg-primary hover:bg-primaryDark text-white font-medium py-3 rounded-lg transition-colors shadow-lg shadow-primary/20">Submit
+                            Application</button>
                     </div>
                 </form>
             </div>
