@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Automotive Sales Academy | Master Vehicle Sales</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23b38b59'/%3E%3Ctext x='50' y='72' font-family='sans-serif' font-size='65' font-weight='bold' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
     <meta name="description"
         content="Premium international ed-tech platform for automotive sales professionals. Learn modern vehicle sales, psychology, EV product knowledge, and negotiation.">
     <!-- Google Fonts -->
@@ -145,14 +146,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
-                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-2">
                     <div
                         class="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-heading font-bold text-xl">
                         A</div>
                     <span
                         class="font-heading font-bold text-xl tracking-tight text-gray-900 dark:text-white uppercase tracking-widest">Apex
                         <span class="font-light text-primary">Academy</span></span>
-                </div>
+                </a>
 
                 <!-- Desktop Nav -->
                 <nav class="hidden lg:flex items-center space-x-8">
@@ -264,12 +265,12 @@
                         courses, practical simulations, and proven psychological strategies for modern automotive
                         professionals.
                     </p>
-                    <div class="flex flex-wrap items-center gap-4">
+                    <div class="flex flex-col sm:flex-row w-full sm:w-auto gap-4">
                         <a href="#learning"
-                            class="bg-primary hover:bg-primaryDark text-white px-8 py-4 rounded font-medium transition-all shadow-[0_0_20px_rgba(179,139,89,0.3)]">Start
+                            class="w-full sm:w-auto text-center bg-primary hover:bg-primaryDark text-white px-8 py-4 rounded font-medium transition-all shadow-[0_0_20px_rgba(179,139,89,0.3)]">Start
                             Learning</a>
                         <a href="#programs"
-                            class="px-8 py-4 rounded font-medium border border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-white transition-colors bg-white/50 dark:bg-black/20 backdrop-blur-sm">Explore
+                            class="w-full sm:w-auto text-center px-8 py-4 rounded font-medium border border-gray-300 dark:border-gray-700 hover:border-gray-900 dark:hover:border-white transition-colors bg-white/50 dark:bg-black/20 backdrop-blur-sm">Explore
                             Courses</a>
                     </div>
 
@@ -432,7 +433,7 @@
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="bg-gray-50 dark:bg-darkCard rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 hover-card group reveal"
+                    <div class="bg-gray-50 dark:bg-darkCard rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 hover-card group reveal md:col-span-2 lg:col-span-1 md:w-[calc(50%-1rem)] lg:w-full md:mx-auto lg:mx-0"
                         style="transition-delay: 200ms;">
                         <div class="h-48 relative overflow-hidden bg-gray-900">
                             <img src="images/course_ev_1791178923815.jpg" alt="EV Knowledge"
@@ -552,13 +553,13 @@
                             class="rounded-2xl overflow-hidden bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-2xl relative group">
                             <!-- Video Thumbnail -->
                             <img src="images/video_learning_1791178896221.jpg" alt="Video Lesson"
-                                class="w-full aspect-video object-cover opacity-80 transition-opacity duration-300 group-hover:opacity-60">
+                                class="w-full h-[280px] sm:h-auto sm:aspect-video object-cover opacity-80 transition-opacity duration-300 group-hover:opacity-60">
 
                             <!-- Play Button Center -->
                             <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
                                 <div
-                                    class="w-20 h-20 bg-primary/90 text-white rounded-full flex items-center justify-center play-btn-pulse cursor-pointer pointer-events-auto hover:bg-primary transition-colors">
-                                    <svg class="w-8 h-8 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                                    class="w-16 h-16 sm:w-20 sm:h-20 bg-primary/90 text-white rounded-full flex items-center justify-center play-btn-pulse cursor-pointer pointer-events-auto hover:bg-primary transition-colors">
+                                    <svg class="w-6 h-6 sm:w-8 sm:h-8 ml-1" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
                                             d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
                                             clip-rule="evenodd"></path>
@@ -568,16 +569,16 @@
 
                             <!-- Overlay UI -->
                             <div
-                                class="absolute top-0 left-0 w-full p-6 flex justify-between items-start bg-gradient-to-b from-black/80 to-transparent">
+                                class="absolute top-0 left-0 w-full p-4 sm:p-6 flex justify-between items-start bg-gradient-to-b from-black/80 to-transparent">
                                 <div>
                                     <span
-                                        class="bg-black/50 text-white text-xs px-2 py-1 rounded backdrop-blur-md border border-white/10 mb-2 inline-block">Module
+                                        class="bg-black/50 text-white text-[10px] sm:text-xs px-2 py-1 rounded backdrop-blur-md border border-white/10 mb-1 sm:mb-2 inline-block">Module
                                         3: The Presentation</span>
-                                    <h4 class="text-white font-heading font-semibold text-xl shadow-sm">The 360Â°
+                                    <h4 class="text-white font-heading font-semibold text-base sm:text-xl shadow-sm pr-2">The 360Â°
                                         Walkaround Technique</h4>
                                 </div>
-                                <button class="text-white/80 hover:text-white bg-black/30 p-2 rounded backdrop-blur-md">
-                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <button class="text-white/80 hover:text-white bg-black/30 p-1.5 sm:p-2 rounded backdrop-blur-md flex-shrink-0">
+                                    <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
                                     </svg>
@@ -586,34 +587,34 @@
 
                             <!-- Bottom Controls -->
                             <div
-                                class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/90 to-transparent">
-                                <div class="flex items-center gap-4 text-white text-sm mb-4">
+                                class="absolute bottom-0 left-0 w-full p-4 sm:p-6 bg-gradient-to-t from-black/90 to-transparent">
+                                <div class="flex items-center gap-2 sm:gap-4 text-white text-xs sm:text-sm mb-3 sm:mb-4">
                                     <img src="images/instructor_portrait_1791178949750.jpg"
-                                        class="w-8 h-8 rounded-full border border-white/20 object-cover"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border border-white/20 object-cover"
                                         alt="Instructor">
                                     <span class="font-medium">Marcus Vance</span>
                                     <span class="text-white/50">â€¢</span>
                                     <span>12:45 / 18:20</span>
                                 </div>
                                 <!-- Progress Bar -->
-                                <div class="w-full h-1.5 bg-white/20 rounded-full overflow-hidden cursor-pointer">
+                                <div class="w-full h-1 sm:h-1.5 bg-white/20 rounded-full overflow-hidden cursor-pointer">
                                     <div class="h-full bg-primary w-2/3 relative">
                                         <div
-                                            class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 bg-white rounded-full shadow">
+                                            class="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 sm:w-3 sm:h-3 bg-white rounded-full shadow">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex justify-between mt-4">
+                                <div class="flex justify-between mt-3 sm:mt-4">
                                     <button
-                                        class="text-xs text-white/70 hover:text-white flex items-center gap-1 transition-colors">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        class="text-[10px] sm:text-xs text-white/70 hover:text-white flex items-center gap-1 transition-colors">
+                                        <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                                         </svg> Get Resource
                                     </button>
                                     <button
-                                        class="text-xs font-semibold text-white bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded transition-colors flex items-center gap-1">
-                                        Next Lesson <svg class="w-4 h-4" fill="none" stroke="currentColor"
+                                        class="text-[10px] sm:text-xs font-semibold text-white bg-white/20 hover:bg-white/30 px-2 sm:px-3 py-1 sm:py-1.5 rounded transition-colors flex items-center gap-1">
+                                        Next Lesson <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor"
                                             viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M9 5l7 7-7 7"></path>
@@ -652,7 +653,7 @@
                         <div class="absolute bottom-0 left-0 w-full p-5">
                             <span class="text-primary text-xs font-bold uppercase tracking-wider mb-1 block">Phase
                                 1</span>
-                            <h4 class="text-white font-heading font-semibold text-lg">Customer Discovery</h4>
+                            <h4 class="text-white font-heading font-semibold text-lg h-14">Customer Discovery</h4>
                             <div class="w-full h-1 bg-white/20 mt-3 rounded overflow-hidden">
                                 <div class="w-[85%] h-full bg-primary"></div>
                             </div>
@@ -670,7 +671,7 @@
                         <div class="absolute bottom-0 left-0 w-full p-5">
                             <span class="text-primary text-xs font-bold uppercase tracking-wider mb-1 block">Phase
                                 2</span>
-                            <h4 class="text-white font-heading font-semibold text-lg">Product Presentation</h4>
+                            <h4 class="text-white font-heading font-semibold text-lg h-14">Product Presentation</h4>
                             <div class="w-full h-1 bg-white/20 mt-3 rounded overflow-hidden">
                                 <div class="w-[40%] h-full bg-primary"></div>
                             </div>
@@ -688,7 +689,7 @@
                         <div class="absolute bottom-0 left-0 w-full p-5">
                             <span class="text-primary text-xs font-bold uppercase tracking-wider mb-1 block">Phase
                                 3</span>
-                            <h4 class="text-white font-heading font-semibold text-lg">The Test Drive</h4>
+                            <h4 class="text-white font-heading font-semibold text-lg h-14">The Test Drive</h4>
                             <div class="w-full h-1 bg-white/20 mt-3 rounded overflow-hidden">
                                 <div class="w-[10%] h-full bg-primary"></div>
                             </div>
@@ -706,7 +707,7 @@
                         <div class="absolute bottom-0 left-0 w-full p-5">
                             <span class="text-primary text-xs font-bold uppercase tracking-wider mb-1 block">Phase
                                 4</span>
-                            <h4 class="text-white font-heading font-semibold text-lg">Negotiation & Close</h4>
+                            <h4 class="text-white font-heading font-semibold text-lg h-14">Negotiation & Close</h4>
                             <div class="w-full h-1 bg-white/20 mt-3 rounded overflow-hidden">
                                 <div class="w-[0%] h-full bg-primary"></div>
                             </div>
@@ -836,21 +837,21 @@
                             </div>
                             <div class="p-6 space-y-6">
                                 <!-- Top Stats -->
-                                <div class="grid grid-cols-3 gap-4">
+                                <div class="grid grid-cols-3 gap-2 sm:gap-4">
                                     <div
-                                        class="bg-white dark:bg-darkCard p-4 rounded-xl border border-gray-200 dark:border-gray-700">
-                                        <div class="text-xs text-gray-500 mb-1">Completion</div>
-                                        <div class="text-2xl font-bold text-gray-900 dark:text-white">42%</div>
+                                        class="bg-white dark:bg-darkCard p-3 sm:p-4 rounded-xl border border-gray-200 dark:border-gray-700 flex flex-col justify-center">
+                                        <div class="text-[10px] sm:text-xs text-gray-500 mb-1 truncate">Completion</div>
+                                        <div class="text-lg sm:text-2xl font-bold text-gray-900 dark:text-white">42%</div>
                                     </div>
                                     <div
-                                        class="bg-white dark:bg-darkCard p-4 rounded-xl border border-gray-200 dark:border-gray-700">
-                                        <div class="text-xs text-gray-500 mb-1">Streak</div>
-                                        <div class="text-2xl font-bold text-primary">14 Days</div>
+                                        class="bg-white dark:bg-darkCard p-3 sm:p-4 rounded-xl border border-gray-200 dark:border-gray-700 flex flex-col justify-center">
+                                        <div class="text-[10px] sm:text-xs text-gray-500 mb-1 truncate">Streak</div>
+                                        <div class="text-lg sm:text-2xl font-bold text-primary whitespace-nowrap">14 <span class="text-xs sm:text-2xl font-medium sm:font-bold">Days</span></div>
                                     </div>
                                     <div
-                                        class="bg-white dark:bg-darkCard p-4 rounded-xl border border-gray-200 dark:border-gray-700">
-                                        <div class="text-xs text-gray-500 mb-1">Certificates</div>
-                                        <div class="text-2xl font-bold text-gray-900 dark:text-white">2</div>
+                                        class="bg-white dark:bg-darkCard p-3 sm:p-4 rounded-xl border border-gray-200 dark:border-gray-700 flex flex-col justify-center">
+                                        <div class="text-[10px] sm:text-xs text-gray-500 mb-1 truncate">Certificates</div>
+                                        <div class="text-lg sm:text-2xl font-bold text-gray-900 dark:text-white">2</div>
                                     </div>
                                 </div>
                                 <!-- Activity Chart Mockup -->
@@ -945,7 +946,7 @@
                     <!-- Quiz Preview -->
                     <div
                         class="bg-white dark:bg-darkSurface p-8 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-lg reveal">
-                        <div class="flex justify-between text-sm text-gray-500 mb-6">
+                        <div class="flex flex-col sm:flex-row justify-between sm:items-center text-sm text-gray-500 mb-6 gap-2">
                             <span>Question 4 of 10</span>
                             <span class="text-primary font-medium">Negotiation Skills</span>
                         </div>
@@ -1103,7 +1104,7 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <a href="#"
-                        class="group p-6 bg-gray-50 dark:bg-darkCard rounded-xl border border-gray-200 dark:border-gray-800 hover-card reveal">
+                        class="group p-6 bg-gray-50 dark:bg-darkCard rounded-xl border border-gray-200 dark:border-gray-800 hover-card reveal flex flex-col h-full">
                         <div class="flex justify-between items-start mb-4">
                             <div class="w-10 h-10 bg-red-100 text-red-600 rounded flex items-center justify-center"><svg
                                     class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1119,10 +1120,10 @@
                         </div>
                         <h4 class="font-heading font-semibold text-gray-900 dark:text-white mb-2">Objection Handling
                             Playbook</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">PDF Guide â€¢ 24 Pages</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-auto">PDF Guide â€¢ 24 Pages</p>
                     </a>
                     <a href="#"
-                        class="group p-6 bg-gray-50 dark:bg-darkCard rounded-xl border border-gray-200 dark:border-gray-800 hover-card reveal"
+                        class="group p-6 bg-gray-50 dark:bg-darkCard rounded-xl border border-gray-200 dark:border-gray-800 hover-card reveal flex flex-col h-full"
                         style="transition-delay: 100ms;">
                         <div class="flex justify-between items-start mb-4">
                             <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded flex items-center justify-center">
@@ -1140,10 +1141,10 @@
                         </div>
                         <h4 class="font-heading font-semibold text-gray-900 dark:text-white mb-2">Test Drive Checklist
                         </h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">Spreadsheet â€¢ Template</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-auto">Spreadsheet â€¢ Template</p>
                     </a>
                     <a href="#"
-                        class="group p-6 bg-gray-50 dark:bg-darkCard rounded-xl border border-gray-200 dark:border-gray-800 hover-card reveal"
+                        class="group p-6 bg-gray-50 dark:bg-darkCard rounded-xl border border-gray-200 dark:border-gray-800 hover-card reveal flex flex-col h-full"
                         style="transition-delay: 200ms;">
                         <div class="flex justify-between items-start mb-4">
                             <div class="w-10 h-10 bg-green-100 text-green-600 rounded flex items-center justify-center">
@@ -1161,7 +1162,7 @@
                         </div>
                         <h4 class="font-heading font-semibold text-gray-900 dark:text-white mb-2">Discovery Question
                             Scripts</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">Audio + Text â€¢ 15 Mins</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-auto">Audio + Text â€¢ 15 Mins</p>
                     </a>
                 </div>
             </div>
@@ -1222,13 +1223,13 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <!-- Brand -->
                 <div class="lg:col-span-1">
-                    <div class="flex items-center gap-2 mb-6">
+                    <a href="index.html" class="flex items-center gap-2 mb-6">
                         <div
                             class="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-heading font-bold text-xl">
                             A</div>
                         <span class="font-heading font-bold text-xl text-white uppercase tracking-widest">Apex <span
                                 class="font-light text-primary">Academy</span></span>
-                    </div>
+                    </a>
                     <p class="text-gray-400 text-sm leading-relaxed mb-6">
                         The premier international ed-tech platform dedicated to elevating the skills of automotive sales
                         professionals through immersive digital learning.
@@ -1321,21 +1322,19 @@
                 </div>
 
                 <form class="space-y-4">
-                    <div class="grid grid-cols-2 gap-4">
-                        <div>
-                            <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">First
-                                Name</label>
-                            <input type="text"
-                                class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
-                                placeholder="John">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">Last
-                                Name</label>
-                            <input type="text"
-                                class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
-                                placeholder="Doe">
-                        </div>
+                    <div>
+                        <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">First
+                            Name</label>
+                        <input type="text"
+                            class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
+                            placeholder="John">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">Last
+                            Name</label>
+                        <input type="text"
+                            class="w-full bg-gray-50 dark:bg-darkCard border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-2 text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
+                            placeholder="Doe">
                     </div>
                     <div>
                         <label class="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1">Work
@@ -1355,6 +1354,23 @@
                         <button type="button"
                             class="w-full bg-primary hover:bg-primaryDark text-white font-medium py-3 rounded-lg transition-colors shadow-lg shadow-primary/20">Submit
                             Application</button>
+                    </div>
+
+                    <div class="flex items-center gap-4 py-4">
+                        <div class="h-px bg-gray-200 dark:bg-gray-700 flex-1"></div>
+                        <span class="text-xs text-gray-400 font-medium uppercase tracking-wider">Or continue with</span>
+                        <div class="h-px bg-gray-200 dark:bg-gray-700 flex-1"></div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <button class="w-full flex items-center justify-center gap-2 bg-white dark:bg-darkCard border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 text-gray-700 dark:text-gray-300 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                            Google
+                        </button>
+                        <button class="w-full flex items-center justify-center gap-2 bg-white dark:bg-darkCard border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 text-gray-700 dark:text-gray-300 px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            <svg class="w-4 h-4 text-black dark:text-white" fill="currentColor" viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+                            Apple
+                        </button>
                     </div>
                 </form>
             </div>
